@@ -1,0 +1,44 @@
+/**
+ * @name: lucky
+ * @description: 2017年会抽奖
+ * @author: zhuzp
+ */
+*{
+    margin: 0;
+    padding: 0
+}
+ html,body{
+     height:100%;
+     overflow: hidden;
+ }
+ body{
+     background-image: url("https://s.kcimg.cn/topic/images/lucky/bg-body.png");
+     background-position: 50% 50%;
+     background-size: cover;
+     > header{
+         margin:0 auto;
+         width: 1008px;
+         height: 450px;
+         overflow: hidden;
+         font-size: 0;
+         background-image: url("https://s.kcimg.cn/topic/images/lucky/caption.png")
+     }
+ }
+ .flipboard{
+     margin: 0 auto;
+     width: 1190px;
+     height: 328px;
+     border-width: 1px 0;
+     border-style: solid;
+     border-color:#ffc402;
+     overflow: hidden;
+     display: flex;
+     li{
+         list-style: none;
+         height: 307px;
+         flex: 1;
+         background-image: url("https://s.kcimg.cn/topic/images/lucky/board.png");
+         background-repeat: no-repeat;
+         background-position: 50% 50%;
+     }
+ }
